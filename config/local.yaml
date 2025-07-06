@@ -1,0 +1,13 @@
+env: "local"
+
+server:
+  host: "localhost"
+  port: 8080
+
+storage:
+  postgres:
+    username: "postgres"
+    password: "password"
+    host: "postgres-giveaway"
+    port: 5432
+    database: "postgres"
